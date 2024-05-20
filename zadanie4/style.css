@@ -1,0 +1,107 @@
+html{
+  font-size: 10px;
+}
+.content {
+    max-width: 960px;
+    display: flex;
+    align-items: center;
+}
+header {
+    border: 3px solid rgb(1, 0, 60);
+    background-color: rgb(30, 160, 180);
+    height: 120px;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 50%;
+}
+.logo-name {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+}
+nav {
+    max-width: 960px;
+}
+nav a {
+    color: rgb(30, 160, 180);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a:hover {
+    color: rgb(30, 170, 200);
+}
+div.list {
+    background-color: rgb(30, 160, 180);
+    max-width: 960px;
+}
+div.list a {
+    color: rgb(95, 14, 77);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.list img {
+    width: 80%;
+}
+.listOfLinks a:visited {
+    color: rgb(99, 34, 120);
+    text-decoration: none;
+}
+div.list p {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+#table1 {
+    max-width: 960px;
+}
+table {
+    border: 3px solid rgb(72, 72, 72);
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+th { 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+td {
+    color: rgb(15, 0, 120);
+}
+tr {
+    height: 50px;
+    text-align: center;
+}
+td, tr, th {
+    border: 1px solid rgb(91, 91, 91);
+}
+tr:nth-child(odd) {
+    background-color: rgb(5, 100, 120);
+}
+tr:nth-child(even) {
+    background-color: rgb(30, 170, 200);
+}
+#form {
+    max-width: 960px;
+    background-color: rgb(30, 160, 180);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.footerr {
+    width: 100%;
+    background-color: rgb(30, 160, 180);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}

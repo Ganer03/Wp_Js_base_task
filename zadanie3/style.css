@@ -1,0 +1,202 @@
+#main1 {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#main1 header {
+    order: 1;
+    border: 3px solid rgb(1, 0, 60);
+    background-color: rgb(30, 160, 180);
+    height: 120px;
+    width: 100%;
+}
+
+#main1 div.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main1 #logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 50%;
+}
+
+#main1 header1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25pt;
+}
+
+#main1 h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main1 nav a {
+    color: rgb(30, 160, 180);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main1 nav {
+    order: 2;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#main1 div.list {
+    order: 3;
+    background-color: rgb(30, 160, 180);
+    padding: 10px;
+}
+
+#main1 div.list a {
+    color: rgb(95, 14, 77);
+}
+
+#main1 div.list img {
+    width: 100%;
+}
+
+#main1 #table1 {
+    order: 5;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#main1 table {
+    border: 3px solid rgb(72, 72, 72);
+    border-collapse: collapse;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main1 th { 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#main1 td {
+    color: rgb(15, 0, 120);
+}
+
+#main1 tr {
+    height: 50px;
+    text-align: center;
+}
+
+#main1 td, tr, th {
+    border: 1px solid rgb(91, 91, 91);
+}
+
+#main1 tr:nth-child(odd) {
+    background-color: rgb(5, 100, 120);
+}
+
+#main1 tr:nth-child(even) {
+    background-color: rgb(30, 170, 200);
+}
+
+#main1 #form {
+    order: 4;
+    background-color: rgb(30, 160, 180);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#main1 div.footerr {
+    order: 6;
+    background-color: rgb(30, 160, 180);
+}
+
+#main1 footer {
+    color: black;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 20px;
+}
+@media screen and (min-width: 800px) {
+#main1 header {
+    display: flex;
+    order: 1;
+}
+
+#main1 div.content {
+    width: 960px;
+    margin: 0 auto;
+    justify-content: start;
+}
+
+#main1 #logo {
+    width: 100px;
+    height: 100px;
+}
+
+#main1 header1 {
+    font-size: 60px;
+}
+
+#main1 nav {
+    display: flex;
+    flex-direction: row;
+    order: 2;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#main1 div.list {
+    order: 3;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgb(30, 160, 180);
+}
+
+#main1 div.list img {
+    width: 60%;
+}
+
+#main1 #table1 {
+    order: 4;
+    width: 960px;
+    margin: 0 auto;
+}
+
+#main1 table {
+    font-size: 20px;
+    width: 80%;
+}
+
+#main1 #form {
+    order: 5;
+    width: 960px;
+    margin: auto;
+    padding: 10px;
+}
+
+#main1 div.footerr {
+    display: flex;
+    order: 6;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#main1 footer {
+    margin: 0 auto;
+}
+}

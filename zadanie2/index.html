@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="header1">
+    <div class="content">
+        <img id="logo" src="https://add-groups.com/uploads/mini/short/0a/24701_original.jpg" alt="Лого">
+        <header>WEB-proger</header>
+    </div>
+</div>
+<div id="navigation">
+    <nav>
+        <a href="#link1">Список гиперссылок</a> | <a href="#link2">Таблица</a> | <a href="#link3">Форма</a>
+    </nav>
+</div>
+<div class="list">
+    <h2 id="link1">Список гиперссылок:</h2>
+    <h2 id="Hello">Aтрибут ссылки</h2>
+    <ol>
+        <li><a href="http://www.kubsu.ru">абсолютную гиперссылку на главную страницу сайта Кубгу</a></li>
+        <li><a href="https://kubsu.ru/">абсолютную на главную сайта Кубгу в протоколе https(https)</a></li>
+        <li><a href="ftp://www.mysite.ru/my_files/file_1">ссылку на файл на сервере FTP без авторизации</a></li>
+        <li><a href="ftp://user:myParol@mysite.ru/my_files/file_2">ссылку на файл на сервере FTP с авторизацией</a></li>
+        <li><a href="https://www.kubsu.ru/ru/abiturient#main-content">ссылку на фрагмент страницы КубГу</a></li>
+        <li><a href="#Hello">ссылку на фрагмент текущей страницы</a></li>
+        <li><a href="https://yandex.ru/search/?lr=35&search_source=morda_desktop_common">ссылка с двумя параметрами в
+            URL</a></li>
+        <li><span>список ссылок основной навигации сайта с подписями title:</span></li>
+        <ul>
+            <li><a href="https://www.kubsu.ru/ru/university">Университет</a></li>
+            <li><a href="https://www.kubsu.ru/ru/education">Образование</a></li>
+            <li><a href="https://www.kubsu.ru/ru/science">Наука и инновации</a></li>
+            <li><a href="https://www.kubsu.ru/ru/abiturient">Абитуриентам</a></li>
+            <li><a href="https://www.kubsu.ru/ru/studlife">Студентам</a></li>
+        </ul>
+        <li><a>ссылку без href</a></li>
+        <li><a href="">ссылку с пустым href</a></li>
+        <li><a href="https://www.kubsu.ru" rel="nofollow">ссылку, по которой запрещен переход поисковикам</a></li>
+        <li><a href="https://www.kubsu.ru">
+            <!--noindex-->
+            запрещенную для индексации поисковиками
+            <!--/noindex-->
+        </a></li>
+        <li><span>
+        Контекстную
+        <a href="https://www.kubsu.ru">ссылку</a>
+        в середине абзаца
+        </span></li>
+        <li><a href="https://www.kubsu.ru">
+            <img src="https://www.winetourbooking.com/wp-content/uploads/2014/12/Internet1.jpg" alt="HTML5" width="200">
+        </a></li>
+        <li><span>ссылки из прямоугольных и круглых областей картинки (HTML-тег map);</span></li>
+        <img src="https://megabook.ru/stream/mediapreview?Key=Фигура%20(геометрические%20фигуры)&Width=654&Height=654"
+             width="200" alt="Geoms" usemap="#unit">
+        <map name="unit">
+            <area shape="rect" coords="20,20,80,80" href="https://www.kubsu.ru/ru/university">
+            <area shape="circle" coords="142,84,38" href="https://www.kubsu.ru/ru/education">
+            <area shape="poly" coords="38,160,78,98,120,160" href="https://www.kubsu.ru/ru/science">
+        </map>
+        <li><a href="page">относительную на страницу в текущем каталоге;</a></li>
+        <li><a href="about/page">относительную на страницу в каталоге about;</a></li>
+        <li><a href="../page">относительную на страницу в каталоге уровнем выше текущего;</a></li>
+        <li><a href="../../page">относительную на страницу в каталоге двумя уровнями выше;</a></li>
+        <li><a href="/">сокращенную на главную;</a></li>
+        <li><a href="/page">сокращенную ссылку на внутреннюю.</a></li>
+    </ol>
+</div>
+<div id="table1">
+    <h2 id="link2">Таблица:</h2>
+    <table>
+        <tr>
+            <td></td>
+            <th>Колонка 1</th>
+            <th>Колонка 2</th>
+            <th>Колонка 3</th>
+        </tr>
+        <tr>
+            <th>Строка 1</th>
+            <td>Ячейка 12</td>
+            <td colspan="2">Объединенные ячейки 12 и 13</td>
+        </tr>
+        <tr>
+            <th>Строка 2</th>
+            <td>Ячейка 21</td>
+            <td>Ячейка 22</td>
+            <td>Ячейка 23</td>
+        </tr>
+        <tr>
+            <th>Строка 3</th>
+            <td colspan="2">Объединенные ячейки 31 и 32</td>
+            <td>Ячейка 33</td>
+        </tr>
+        <tr>
+            <th>Строка 4</th>
+            <td>Ячейка 41</td>
+            <td>Ячейка 42</td>
+            <td>Ячейка 43</td>
+        </tr>
+        <tr>
+            <th>Строка 5</th>
+            <td colspan="3">Объединенные ячейки 51, 52 и 53</td>
+        </tr>
+    </table>
+</div>
+<div id="form">
+    <h2 id="link3">Форма:</h2>
+    <form action="https://yandex.ru/">
+        <label>
+            Имя:<br/>
+            <input name="field-name" value="Иван"/>
+        </label><br/>
+        <label>
+            Email:<br/>
+            <input name="field-email" value="test@example.com" type="email"/>
+        </label><br/>
+        <label>
+            Дата:<br/>
+            <input name="field-date" value="2022-09-12" type="date"/>
+        </label><br/>
+        Пол:
+        <ul>
+            <li><label>
+                <input type="radio" checked="checked" name="radio-group-1"/>
+                Мужской
+            </label></li>
+            <li><label>
+                <input type="radio" name="radio-group-1"/>
+                Женский
+            </label></li>
+        </ul>
+        Кол-во конечностей:<br/>
+        <label>
+            <input type="radio" checked="checked" name="radio-group-2"/>
+            1
+        </label>
+        <label>
+            <input type="radio" name="radio-group-2"/>
+            2
+        </label>
+        <label>
+            <input type="radio" name="radio-group-2"/>
+            3
+        </label>
+        <label>
+            <input type="radio" name="radio-group-2"/>
+            4
+        </label>
+        <label>
+            <input type="radio" name="radio-group-2"/>
+            5
+        </label><br/>
+        <label>
+            Сверхспособности:<br/>
+            <select name="field-name-4[]" multiple="multiple">
+                <option>бессмертие</option>
+                <option selected="selected">прохождение сквозь стены</option>
+                <option selected="selected">левитация</option>
+            </select>
+        </label><br/>
+        <label>
+            Биография:<br/>
+            <textarea name="field-name-2">Расскажите о себе</textarea>
+        </label><br/>
+        <label>
+            <input type="checkbox" checked="checked" name="check-1"/>
+            с контрактом ознакомлен (а)
+        </label><br/>
+        <input type="submit" value="Отправить"/>
+    </form>
+</div>
+<div class="footerr">
+    <footer>(c) Мезинов Иван 2022</footer>
+</div>
+</body>
+</html>

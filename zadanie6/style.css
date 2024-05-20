@@ -1,0 +1,32 @@
+body{
+  margin: auto;
+  width: 100%;
+}
+.form{
+  margin: auto;
+  max-width: 960px;
+  background: rgb(190, 210, 215);
+  padding: 10px;
+}
+#form1{
+  display: grid;
+  grid-row-gap: 10px;
+}
+.input, .list, .radiobox, .checkbox {
+  display: flex;
+  flex-direction: column;
+}
+#field1, #field_name_3 {
+  width: 80%;
+  margin: auto;
+  height: 30px;
+  border-radius: 8px;
+}
+#lb {
+  font-size: 15px;
+  text-align: center;
+}
+#rez{
+  font-size: 20px;
+  text-align: center;
+}

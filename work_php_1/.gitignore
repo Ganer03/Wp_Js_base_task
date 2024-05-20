@@ -1,0 +1,8 @@
+.idea
+workshop/**
+/workshop/
+composer.json
+docker-compose.yml
+license.txt
+PhpStorm_Reference_Card.pdf
+README.md

@@ -1,0 +1,35 @@
+.b-popup{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: none;
+    background-color: rgba(22,22,22,0.5);
+    display: block;
+}
+
+.ajaxForm{
+    max-width: 80%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+
+input[type="button"]{
+  text-align: right;
+}
+
+input[type="email"] , input[type="name"] , textarea{
+  width:100%;
+}
+
+.fl{
+  display: flex;
+    justify-content: center;
+}
+
+.rig{
+    display: flex;
+    flex-direction: row-reverse;
+}

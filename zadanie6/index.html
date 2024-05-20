@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Задание 6 </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer=""></script>
+</head>
+    <body>
+        <div class="form">
+             <label id="lb">Calculator</label>
+            <form method="POST" id="form1">
+                <div class="input" id="input">
+                    <label id="lb">Kol-vo</label>
+                    <input id="field1" type="text" name="kolvo" placeholder="Введите количество товара">
+                </div>
+                <div class="list" id="list">
+                    <label id="lb">Type</label>
+                    <select name="fieldname3" id="field_name_3">
+                        <option value="1">Priora</option>
+                        <option value="2">Iphone</option>
+                        <option value="3">Laptop</option>
+                    </select>
+                </div>
+                <div class="radiobox" id="radiobox" style="display: none;">
+                    <label id="lb">Объем памяти</label><br>
+                        <label>
+                            <input type="radio" name="radiobox" value="rd1">128гб
+                        </label><br>
+                        <label>
+                            <input type="radio" name="radiobox" value="rd2">256гб
+                        </label><br>
+                        <label>
+                            <input type="radio" name="radiobox" value="rd3">512гб
+                        </label>
+                </div>
+                <div class="checkbox" id="checkbox1" style="display: block;">
+                    <label id="lb">Доп свойства сборки</label><br>
+                        <label>
+                            <input type="checkbox" name="ch1">C SSD
+                        </label>
+                        <label>
+                            <input type="checkbox" name="ch2">Видеокарта новейшая(rtx 4 поколения)
+                        </label>
+                        <label>
+                            <input type="checkbox" name="ch3">Процессор популярног бренда(intel или ryzen)
+                        </label>
+                </div><br>
+                <input id="button1" autocomplete="off" type="button" onclick="update()" name="button" value="Отправить">
+            </form>
+        </div>
+        <div id="rez"></div>
+    </body>
+</html>

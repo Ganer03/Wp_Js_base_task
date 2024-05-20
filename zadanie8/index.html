@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Задание 8</title>
+    <link rel="stylesheet" href="zad1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="zad1.js" defer=""></script>
+</head>
+<body>
+    <a class="b-container" href="" onclick="followLink(event, this)">первая страница</a>
+    <div class="b-popup" id="show">
+        <form class="ajaxForm" action="https://formcarry.com/s/OorCPb5Md" method="POST" accept-charset="UTF-8">
+            <p class="rig"><input type="button" onclick="back()" value="✖"></p>
+            <label>
+                <input type="name" name="Name" id="name">
+                <div class="labeltext">
+                    Имя:
+                </div>
+            </label>
+            <label>
+                <input type="email" name="email" id="email">
+                <div class="labeltext">
+                    Email:
+                </div>
+            </label>
+            <label>
+                <textarea id="textarea" name="Message"></textarea>
+                <div class="labeltext">
+                    Сообщение:
+                </div>
+            </label>
+	    <div class="fl">
+	    <p>Согласие с политикой обработки персональных данных</p>
+            <label class="checkbox"> 
+                <input class="checkbox" type="checkbox" id="checkbox">
+            </label>
+	    </div>
+            <button type="submit" name="Butforms">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
